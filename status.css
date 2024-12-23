@@ -22,3 +22,27 @@ body {
 .box2:hover {
     background-color: darkolivegreen;
 }
+.blipgood {
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    background-color: greenyellow;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+.blipgood:hover {
+    transform: scale(1.5);
+}
+.blipbad {
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    background-color: orange;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+.blipbad:hover {
+    transform: scale(1.5);
+}
