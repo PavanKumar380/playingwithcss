@@ -16,32 +16,35 @@ body {
 .box2 {
     background-color: black;
     border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 .box2:hover {
     background-color: darkolivegreen;
 }
+.blipsbar {
+    float: right;
+    background-color: black;
+    border-radius: 5px;
+}
 .blipgood {
-    width: fit-content;
-    height: fit-content;
+    width: 5px;
+    height: 16px;
     float: right;
     background-color: greenyellow;
     border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
+    margin: 3px;
 }
 .blipgood:hover {
     transform: scale(1.5);
 }
 .blipbad {
-    width: fit-content;
-    height: fit-content;
+    width: 5px;
+    height: 16px;
     float: right;
     background-color: orange;
     border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
+    margin: 3px;
 }
 .blipbad:hover {
     transform: scale(1.5);
